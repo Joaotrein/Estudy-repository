@@ -62,7 +62,7 @@ Porém, caso seja negativo, o movimento do gráfico é feito para a direita, aum
 
 ![1730281375327](image/neural-network/1730281375327.png)
 
-<h2>Função de Ativação
+<h2>Função de Ativação<h2/>
 
 Logo após o somatório ponderado dos neurônios, o valor obtido passa por mais um cálculo, chamado de função de ativação ou transferência. 
 
@@ -72,7 +72,7 @@ Seu objetivo é limitar a amplitude de saída do neurônio, ou seja, o valor obt
 
 Em funções lineares, uma das técnicas mais populares é a função degrau, que determina, através de condições, o resultado final. Ou seja, é possível determinar que se o resultado da soma ponderada for menor ou igual zero, o algoritmo entregará um resultado, caso seja maior, ele entregará outro valor final. As condições dependem do que está se classificando.
 
-<h2>Backpropagation
+<h2>Backpropagation<h2/>
 
 Quando uma rede neural artificial é inicializada, os pesos sinápticos recebem valores aleatórios que, quando multiplicados pelos valores recebidos, algumas vezes da camada de entrada e outras de neurônios da camada anterior, não atingem os valores desejados no momento do treinamento.
 
